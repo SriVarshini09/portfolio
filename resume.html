@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070A12" />
+    <title>Resume — Tulasi Venkata Sri Varshini Padamata</title>
+    <meta
+      name="description"
+      content="Resume page for Tulasi Venkata Sri Varshini Padamata — Artificial Intelligence graduate student focused on production-grade ML systems, LLMs, and MLOps."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="bg">
+      <div class="bg__grid" aria-hidden="true"></div>
+      <canvas class="bg__canvas" id="bgCanvas" aria-hidden="true"></canvas>
+      <div class="bg__glow" aria-hidden="true"></div>
+    </div>
+
+    <header class="header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="index.html">
+          <span class="nav__brandMark" aria-hidden="true"></span>
+          <span class="nav__brandText">TVSVP</span>
+        </a>
+        <div class="nav__links" style="display:flex">
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#contact">Contact</a>
+          <a href="index.html">Home</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content" class="section">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h2>Resume</h2>
+          <p>
+            For the cleanest recruiter experience, place your PDF at <strong>resume.pdf</strong> in the site root. This page will
+            automatically offer a direct download link.
+          </p>
+        </div>
+
+        <div class="cardsGrid" style="grid-template-columns: 1fr;">
+          <div class="card reveal">
+            <h3>Download</h3>
+            <p class="card__list">
+              <a class="link" href="resume.pdf" download>Download Resume (PDF)</a>
+            </p>
+            <p class="muted">
+              If the link 404s, add a file named <strong>resume.pdf</strong> in the same folder as <strong>index.html</strong>.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Quick highlights</h3>
+            <ul class="bullets">
+              <li>Document AI on AWS SageMaker + EKS with measurable gains in F1, throughput, and retrieval latency.</li>
+              <li>Semantic search with FAISS (300 ms retrieval) and cost-aware LLM benchmarking for contract analysis.</li>
+              <li>Real-time ML platform work: feature stores, streaming, monitoring, drift detection, and model serving.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© <span id="year"></span> Tulasi Venkata Sri Varshini Padamata</p>
+        <a class="link" href="index.html">Back to site</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

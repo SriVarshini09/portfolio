@@ -1,0 +1,15 @@
+{
+  "name": "Tulasi Venkata Sri Varshini Padamata — Portfolio",
+  "short_name": "TVSVP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070A12",
+  "theme_color": "#070A12",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
