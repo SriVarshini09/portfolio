@@ -436,9 +436,11 @@ a{color:inherit}
 .proseCard h3{margin:0 0 8px; font-size:16px}
 .proseCard p{margin:0; color:var(--muted); line-height:1.65; font-size:14px}
 
+.eduBlock{margin-top:38px}
+
 .eduGrid{display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin-top:18px}
 .eduCard{
-  border-radius: var(--radius);
+  border-radius: var(--radius2);
   background: rgba(255,255,255,.04);
   border:1px solid rgba(255,255,255,.10);
   padding:16px;

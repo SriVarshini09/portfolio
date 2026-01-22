@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070A12" />
+    <title>Experience — Tulasi Venkata Sri Varshini Padamata</title>
+    <meta
+      name="description"
+      content="Experience of Tulasi Venkata Sri Varshini Padamata — production ML engineering, document intelligence, retrieval, and MLOps."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="/experience.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="bg">
+      <div class="bg__grid" aria-hidden="true"></div>
+      <canvas class="bg__canvas" id="bgCanvas" aria-hidden="true"></canvas>
+      <div class="bg__glow" aria-hidden="true"></div>
+    </div>
+
+    <header class="header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="index.html">
+          <span class="nav__brandMark" aria-hidden="true"></span>
+          <span class="nav__brandText">TVSVP</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true" class="nav__toggleIcon"></span>
+        </button>
+        <div class="nav__links" id="navLinks">
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="research.html">Research</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="section" aria-label="Experience">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2>Experience</h2>
+            <p>
+              I’ve worked on applied ML projects where the goal is not only a good model, but a system that runs reliably in
+              production. I focus on evaluation, performance constraints, and the practical “glue” that makes ML usable: data
+              pipelines, APIs, monitoring, and cost controls.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="tItem reveal">
+              <div class="tItem__head">
+                <div>
+                  <h3>NOVACIS DIGITAL</h3>
+                  <p class="muted">Machine Learning Engineer • India</p>
+                </div>
+                <span class="tag">Nov 2023 — May 2024</span>
+              </div>
+              <div class="tItem__body">
+                <p class="roleSummary">
+                  Built and productionized document intelligence and semantic retrieval systems on AWS, focused on measurable gains
+                  in accuracy, throughput, and cost.
+                </p>
+                <div class="metricRow" aria-label="Key metrics">
+                  <span class="metric">+18% F1 (10K+ legal docs)</span>
+                  <span class="metric">100K docs / 10 min</span>
+                  <span class="metric">300 ms retrieval</span>
+                  <span class="metric">-35% inference cost</span>
+                </div>
+                <div class="triGrid" aria-label="Role breakdown">
+                  <div class="tri">
+                    <h4>Impact</h4>
+                    <p>
+                      Improved document understanding performance with LayoutLM + BERT and delivered a faster, scalable pipeline
+                      for large-volume document processing and retrieval.
+                    </p>
+                  </div>
+                  <div class="tri">
+                    <h4>Approach</h4>
+                    <p>
+                      Implemented OCR + LLM workflows on Amazon EKS, integrated semantic search with FAISS, and evaluated LLM
+                      options (GPT-4 vs Claude) to control cost while maintaining response quality.
+                    </p>
+                  </div>
+                  <div class="tri">
+                    <h4>Production stack</h4>
+                    <p>AWS SageMaker • EKS • Docker • Kubernetes • FAISS • LayoutLM • BERT • OCR • LLMs</p>
+                  </div>
+                </div>
+                <div class="stack">
+                  <span class="stack__k">Stack</span>
+                  <span class="stack__v">AWS SageMaker • EKS • Docker • Kubernetes • FAISS • LayoutLM • BERT • OCR • LLMs</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="tItem reveal">
+              <div class="tItem__head">
+                <div>
+                  <h3>RMK Research Lab</h3>
+                  <p class="muted">Machine Learning Intern • India</p>
+                </div>
+                <span class="tag">Aug 2023 — Jan 2024</span>
+              </div>
+              <div class="tItem__body">
+                <p class="roleSummary">
+                  Built an explainable ECG classification pipeline with reproducible training and a centralized feature store to
+                  support clinical-scale evaluation.
+                </p>
+                <div class="metricRow" aria-label="Key metrics">
+                  <span class="metric">93.1% accuracy</span>
+                  <span class="metric">0.95 ROC-AUC</span>
+                  <span class="metric">+6–8% accuracy gain</span>
+                  <span class="metric">1,190+ clinical records</span>
+                </div>
+                <div class="triGrid" aria-label="Role breakdown">
+                  <div class="tri">
+                    <h4>Impact</h4>
+                    <p>
+                      Delivered strong classification performance with stable behavior, exceeding AdaBoost and CatBoost on the
+                      evaluation dataset.
+                    </p>
+                  </div>
+                  <div class="tri">
+                    <h4>Approach</h4>
+                    <p>
+                      Trained and optimized ensemble models (XGBoost, Random Forest, Gradient Boosting) and applied LIME for
+                      explainability, supported by a feature store.
+                    </p>
+                  </div>
+                  <div class="tri">
+                    <h4>Production stack</h4>
+                    <p>Python • Scikit-learn • XGBoost • LIME • Feature Store • Reproducible training pipelines</p>
+                  </div>
+                </div>
+                <div class="stack">
+                  <span class="stack__k">Stack</span>
+                  <span class="stack__v">Python • Scikit-learn • XGBoost • LIME • Feature Store • Reproducible training pipelines</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <p class="muted">© <span id="year"></span> Tulasi Venkata Sri Varshini Padamata</p>
+          <a class="link" href="#top">Back to top</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

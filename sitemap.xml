@@ -4,6 +4,27 @@
     <loc>/</loc>
   </url>
   <url>
+    <loc>/about.html</loc>
+  </url>
+  <url>
+    <loc>/skills.html</loc>
+  </url>
+  <url>
+    <loc>/experience.html</loc>
+  </url>
+  <url>
+    <loc>/projects.html</loc>
+  </url>
+  <url>
+    <loc>/research.html</loc>
+  </url>
+  <url>
+    <loc>/certifications.html</loc>
+  </url>
+  <url>
+    <loc>/contact.html</loc>
+  </url>
+  <url>
     <loc>/resume.html</loc>
   </url>
 </urlset>
